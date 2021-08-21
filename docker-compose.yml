@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+  jupyter-data-science:
+    image: jupyter/datascience-notebook
+    restart: unless-stopped
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    ports:
+      - "10000:8888"
+    volumes:
+      - "${PWD}":/home/jovyan/work
