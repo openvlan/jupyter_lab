@@ -8,4 +8,4 @@ services:
     ports:
       - "10000:8888"
     volumes:
-      - "${PWD}":/home/jovyan/work
+      - ${PWD}:/home/jovyan/work
