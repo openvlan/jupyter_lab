@@ -6,6 +6,18 @@ Docker Compose Jupiter data science
 .- Docker Compose
 .- Si no se tiene docker compose y si unicamente docker se puede abrir CMD en Windows o la consola en Linux y Mac e ingresar el siguiente comando:
 
+## Para instalar con Docker Compose en Linux o Mac
+```bash
+chmod +x installJupyterLab.sh
+./installJupyterLab.sh
+```
+
+## Para instalar con Docker Compose en Windows
+
+```bash
+installJupyter.bat
+```
+
 ## Para usar directamente con docker sin docker-compose
 
 ```bash
